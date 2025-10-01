@@ -4,6 +4,7 @@ h1 {
 }
 
 body {
+    text-align: center;
     line-height: 2;
     background: linear-gradient(to left, rgb(204, 121, 77), rgb(94, 188, 188));
 
@@ -78,17 +79,7 @@ button:hover {
     background-color: aqua;
     /* color: white; */
 }
-@media (max-width:1440px) {
-.counter-container {
-    width: 200px;
-    margin-left: 24rem;
-    padding: 2rem;
-    box-shadow: 1px 2px 2px 2px gray;
-    place-items: center;
-    border-radius: 5px;
-    background: linear-gradient(to left, rgba(18, 198, 234, 0.42), rgb(219, 68, 13));
-}
-}
+
 
 @media (max-width:768px) {
     h1 {
