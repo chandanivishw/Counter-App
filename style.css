@@ -1,0 +1,92 @@
+h1 {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+body {
+    line-height: 2;
+    background: linear-gradient(to left, rgb(204, 121, 77), rgb(94, 188, 188));
+
+}
+
+
+.counter-container {
+    width: 200px;
+    margin-left: 28rem;
+    padding: 2rem;
+    box-shadow: 1px 2px 2px 2px gray;
+    place-items: center;
+    border-radius: 5px;
+    background: linear-gradient(to left, rgba(18, 198, 234, 0.42), rgb(219, 68, 13));
+}
+
+p {
+    padding: 1rem;
+    background-color: whitesmoke;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* css by js code */
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.black {
+    color: black;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 5px;
+    padding: 0.4rem;
+    border: none;
+    transition: transform 0.3s ease;
+
+}
+.btn-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:0.5rem;
+}
+
+button:hover {
+    /* transform: scale(1.03);
+    transition: 0.3s ; */
+    transform: scale(1.03);
+}
+
+#incr-btn {
+    background-color: rgb(21, 44, 21);
+    color: white;
+}
+
+#dcr-btn {
+    background-color: rgb(112, 23, 23);
+    color: white;
+}
+
+#reset-btn {
+    background-color: aqua;
+    /* color: white; */
+}
+
+@media (max-width:768px) {
+    h1 {
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .counter-container {
+        margin: auto;
+    }
+    
+}
